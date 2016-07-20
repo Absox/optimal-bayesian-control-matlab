@@ -10,3 +10,8 @@ p1 = 0.5;
 % Generate observations
 change_time = geornd(change_time_probability);      % Determine change time as a geometric random variable.
 observations = bernoulli_observations(observations_length, p0, p1, change_time);
+
+% Calculate information state variable for each time step k
+
+
+% Calculate thresholds for each time step
